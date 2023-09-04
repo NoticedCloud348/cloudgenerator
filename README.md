@@ -9,6 +9,16 @@ If you want to generate a password you can use generate_password()
 ```
 import cloudgenerator
 
-password == cloudgenerator.generate_password()
+password = cloudgenerator.generate_password()
 print(password)
+```
+
+### Checking the safety of a passowrd
+You can check the safety of a password using calculate_complexity() it will give a grade from 1 to 5
+```
+import cloudgenerator
+
+password = cloudgenerator.generate_password()
+safety = cloudgenerator.calculate_complexity(password)
+print(safety)
 ```
