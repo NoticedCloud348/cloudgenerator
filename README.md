@@ -20,5 +20,13 @@ import cloudgenerator
 
 password = cloudgenerator.generate_password()
 safety = cloudgenerator.calculate_complexity(password)
-print(safety)
+print(safety.grade)
+```
+## Generating a token
+You can generate a token using generate_token()
+```
+import cloudgenerator
+
+token = cloudgenerator.generate_token()
+print(token)
 ```
