@@ -30,3 +30,6 @@ import cloudgenerator
 token = cloudgenerator.generate_token()
 print(token)
 ```
+
+
+if you want to donate here the link of paypal: https://paypal.me/NoticedCloud?country.x=IT&locale.x=it_IT
